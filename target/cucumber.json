@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Create An Account",
+        "description": "",
+        "id": "account-management;create-an-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17843367900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on  Create Account Page",
+            "match": {
+              "location": "AccountManagementSteps.userOnCreateAccountPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 880875200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "lUser enters first name",
+            "match": {
+              "location": "AccountManagementSteps.luserEntersFirstName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202192700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters last name",
+            "match": {
+              "location": "AccountManagementSteps.userEntersLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Email",
+            "match": {
+              "location": "AccountManagementSteps.userEntersEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter password",
+            "match": {
+              "location": "AccountManagementSteps.userEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter confirm password",
+            "match": {
+              "location": "AccountManagementSteps.userEnterConfirmPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click submit",
+            "match": {
+              "location": "AccountManagementSteps.userClickSubmit()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AccountManagement"
+          }
+        ]
+      }
+    ],
+    "name": "Account Management",
+    "description": "",
+    "id": "account-management",
+    "keyword": "Feature",
+    "uri": "AccountManagemaent.feature"
+  }
+]
